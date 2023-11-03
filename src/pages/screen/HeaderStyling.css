@@ -1,0 +1,31 @@
+.lizzy{
+    background-color: red;
+}
+
+.menu{
+    display: block;
+}
+
+.logout{
+    display: none;
+}
+
+@media (min-width:425px) {
+    .menu{
+        display: block;
+    }
+
+    .logout{
+        display: none;
+    }
+}
+
+@media (min-width: 1023px) {
+    .menu{
+        display: none;
+    }
+
+    .logout{
+        display: block;
+    }
+}
